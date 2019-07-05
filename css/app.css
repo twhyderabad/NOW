@@ -1812,9 +1812,9 @@ th.hide-for-touch {
       .top-bar-section ul li > a.button:hover {
         background: #090909; }
     .top-bar-section ul li > a.button.secondary {
-      background: #6a2569; }
+      background: #3a1549; }
       .top-bar-section ul li > a.button.secondary:hover {
-        background: #441844; }
+        background: #1b0a21; }
     .top-bar-section ul li > a.button.success {
       background: #5da423; }
       .top-bar-section ul li > a.button.success:hover {
@@ -1824,7 +1824,7 @@ th.hide-for-touch {
       .top-bar-section ul li > a.button.alert:hover {
         background: #970b0e; }
   .top-bar-section ul li:hover > a {
-    background: #6a2569;
+    background: #3a1549;
     color: white; }
   .top-bar-section ul li.active > a {
     background: #ebebeb;
@@ -1931,14 +1931,14 @@ th.hide-for-touch {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
-      background: #6a2569;
+      background: #3a1549;
       color: white; }
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
       background: #f2f2f2; }
       .top-bar-section li a:not(.button):hover {
-        background: #6a2569; }
+        background: #3a1549; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -1999,7 +1999,7 @@ th.hide-for-touch {
         right: 100%; }
 
   .no-js .top-bar-section ul li:hover > a {
-    background: #6a2569;
+    background: #3a1549;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
     background: #ebebeb;
@@ -2031,11 +2031,11 @@ button, .button {
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
-    background-color: #6a2569;
-    border-color: #441844;
+    background-color: #3a1549;
+    border-color: #1b0a21;
     color: white; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      background-color: #441844; }
+      background-color: #1b0a21; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       color: white; }
   button.success, .button.success {
@@ -2097,19 +2097,19 @@ button, .button {
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       background-color: #222222; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-      background-color: #6a2569;
-      border-color: #441844;
+      background-color: #3a1549;
+      border-color: #1b0a21;
       color: white;
       cursor: default;
       opacity: 0.6;
       -webkit-box-shadow: none;
       box-shadow: none; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #441844; }
+        background-color: #1b0a21; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
         color: white; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #6a2569; }
+        background-color: #3a1549; }
     button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
       background-color: #5da423;
       border-color: #457a1a;
@@ -3636,11 +3636,11 @@ button, .button {
       #header .fixed .name h1 a span {
         font-weight: normal;
         display: inline-block;
-        color: #6a2569; }
+        color: #3a1549; }
 
 #intro {
   color: white;
-  background: #6a2569 url(../img/now-edition-4.jpg);
+  background: #3a1549 url(../img/now-edition-4.jpg);
   background-size: 2014px 1024px;
   background-repeat: repeat;
   border-radius: 0; }
@@ -3649,7 +3649,7 @@ button, .button {
   #intro a {
     color: white; }
     #intro a:hover, #intro a:active {
-      color: #d2bdd2; }
+      color: #c3b8c8; }
   #intro code, #intro abbr, #intro acronym {
     color: #d9d9d9; }
   @media only screen and (min-width: 768px) {
@@ -3740,7 +3740,7 @@ button, .button {
         color: #333333;
         -webkit-border-radius: 3px;
         border-radius: 3px;
-        color: #6a2569;
+        color: #3a1549;
         padding: 0.25em;
         margin-bottom: 0.25em; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
@@ -3756,20 +3756,20 @@ button, .button {
 
 #agenda {
   color: white;
-  background: #6a2569 url(../img/now-edition-4.jpg);
+  background: #3a1549 url(../img/now-edition-4.jpg);
   background-size: 2014px 1024px;
   background-repeat: repeat;
-  background: #6a2569; }
+  background: #3a1549; }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: white; }
   #agenda a {
     color: white; }
     #agenda a:hover, #agenda a:active {
-      color: #d2bdd2; }
+      color: #c3b8c8; }
   #agenda code, #agenda abbr, #agenda acronym {
     color: #d9d9d9; }
   #agenda .timings .row {
-    border-bottom: 1px dashed #c860c6;
+    border-bottom: 1px dashed #9837c0;
     margin-bottom: 0;
     padding: 0.5em 0;
     overflow: hidden;
@@ -3831,7 +3831,86 @@ button, .button {
         #agenda .timings .row .summary .speaker_description {
           text-align: justify; } }
     #agenda .timings .row:hover {
-      background-color: #90328e; }
+      background-color: #592071; }
+
+#speakerinfo {
+  color: white;
+  background: #3a1549 url(../img/now-edition-4.jpg);
+  background-size: 2014px 1024px;
+  background-repeat: repeat;
+  background: #48407c; }
+  #speakerinfo h1, #speakerinfo h2, #speakerinfo h3, #speakerinfo #archive .grid a .day, #archive .grid a #speakerinfo .day, #speakerinfo h4, #speakerinfo h5, #speakerinfo h6, #speakerinfo #archive .grid a .month, #archive .grid a #speakerinfo .month, #speakerinfo .subheader, #speakerinfo p, #speakerinfo blockquote, #speakerinfo small, #speakerinfo #archive .grid a .year, #archive .grid a #speakerinfo .year {
+    color: white; }
+  #speakerinfo a {
+    color: white; }
+    #speakerinfo a:hover, #speakerinfo a:active {
+      color: #c3b8c8; }
+  #speakerinfo code, #speakerinfo abbr, #speakerinfo acronym {
+    color: #d9d9d9; }
+  #speakerinfo .timings .row {
+    border-bottom: 1px dashed #9837c0;
+    margin-bottom: 0;
+    padding: 0.5em 0;
+    overflow: hidden;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out; }
+    #speakerinfo .timings .row:last-child {
+      border-bottom: 0; }
+    #speakerinfo .timings .row .time,
+    #speakerinfo .timings .row .summary {
+      -webkit-transform-origin: 50% 50%;
+      -moz-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      -o-transform-origin: 50% 50%;
+      transform-origin: 50% 50%; }
+    #speakerinfo .timings .row .summary {
+      position: relative; }
+      #speakerinfo .timings .row .summary p {
+        margin-bottom: 0; }
+      #speakerinfo .timings .row .summary small, #speakerinfo .timings .row .summary #archive .grid a .year, #archive .grid a #speakerinfo .timings .row .summary .year {
+        line-height: 1rem;
+        display: inline-block; }
+      #speakerinfo .timings .row .summary img {
+        display: block;
+        margin: 0.5em auto;
+        max-width: 3em;
+        border-radius: 30%; }
+      #speakerinfo .timings .row .summary a {
+        white-space: nowrap; }
+    @media only screen and (min-width: 768px) {
+      #speakerinfo .timings .row p {
+        margin-bottom: 0; }
+      #speakerinfo .timings .row .time {
+        -webkit-transform-origin: 100% 50%;
+        -moz-transform-origin: 100% 50%;
+        -ms-transform-origin: 100% 50%;
+        -o-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        text-align: right; }
+        #speakerinfo .timings .row .time p:after {
+          display: block;
+          content: "\00A7";
+          position: absolute;
+          top: 0;
+          right: -0.25em; }
+      #speakerinfo .timings .row .summary {
+        -webkit-transform-origin: 0% 50%;
+        -moz-transform-origin: 0% 50%;
+        -ms-transform-origin: 0% 50%;
+        -o-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+        text-align: left; }
+        #speakerinfo .timings .row .summary p {
+          padding-right: 3.15em; }
+        #speakerinfo .timings .row .summary img {
+          position: absolute;
+          right: 1em;
+          margin-top: -1.5em; }
+        #speakerinfo .timings .row .summary .speaker_description {
+          text-align: justify; } }
+    #speakerinfo .timings .row:hover {
+      background-color: #592071; }
 
 #location {
   color: white;
@@ -3853,7 +3932,7 @@ button, .button {
     display: block;
     padding-bottom: 0.5em; }
   #location .address a {
-    color: #6a2569; }
+    color: #3a1549; }
   @media only screen and (min-width: 768px) {
     #location .address p {
       text-align: right; }
@@ -3869,9 +3948,9 @@ button, .button {
   #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h4, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
     color: white; }
   #about a {
-    color: #6a2569; }
+    color: #3a1549; }
     #about a:hover, #about a:active {
-      color: #542453; }
+      color: #32183d; }
   #about code, #about abbr, #about acronym {
     color: #d9d9d9; }
   #about .social a {
@@ -3904,7 +3983,7 @@ button, .button {
       left: 50%; }
     #about .social a:hover, #about .social a:focus {
       color: white;
-      background-color: #6a2569; }
+      background-color: #3a1549; }
       #about .social a:hover i, #about .social a:focus i {
         -webkit-animation: flip 1s 0s ease both;
         -moz-animation: flip 1s 0s ease both;
@@ -3927,27 +4006,27 @@ button, .button {
 
 #participate {
   color: white;
-  background-color: #b5b935; }
+  background-color: #f2f3f4; }
   #participate .feature {
     padding: 0;
     position: relative; }
 
 #archivecontent {
   color: white;
-  background: #6a2569 url(../img/now-edition-4.jpg);
+  background: #3a1549 url(../img/now-edition-4.jpg);
   background-size: 2014px 1024px;
   background-repeat: repeat;
-  background: #6a2569; }
+  background: #3a1549; }
   #archivecontent h1, #archivecontent h2, #archivecontent h3, #archivecontent #archive .grid a .day, #archive .grid a #archivecontent .day, #archivecontent h4, #archivecontent h5, #archivecontent h6, #archivecontent #archive .grid a .month, #archive .grid a #archivecontent .month, #archivecontent .subheader, #archivecontent p, #archivecontent blockquote, #archivecontent small, #archivecontent #archive .grid a .year, #archive .grid a #archivecontent .year {
     color: white; }
   #archivecontent a {
     color: white; }
     #archivecontent a:hover, #archivecontent a:active {
-      color: #d2bdd2; }
+      color: #c3b8c8; }
   #archivecontent code, #archivecontent abbr, #archivecontent acronym {
     color: #d9d9d9; }
   #archivecontent .talks .row {
-    border-bottom: 1px dashed #c860c6;
+    border-bottom: 1px dashed #9837c0;
     margin-bottom: 0;
     padding: 0.5em 0;
     overflow: hidden;
@@ -4012,7 +4091,7 @@ button, .button {
         #archivecontent .talks .row .summary .speaker_description {
           text-align: left; } }
     #archivecontent .talks .row:hover {
-      background-color: #90328e; }
+      background-color: #592071; }
 
 #archive {
   color: #222222;
@@ -4023,9 +4102,9 @@ button, .button {
   #archive h1, #archive h2, #archive h3, #archive .grid a .day, #archive h4, #archive h5, #archive h6, #archive .grid a .month, #archive .subheader, #archive p, #archive blockquote, #archive small, #archive .grid a .year {
     color: #222222; }
   #archive a {
-    color: #6a2569; }
+    color: #3a1549; }
     #archive a:hover, #archive a:active {
-      color: #966696; }
+      color: #755b7f; }
   #archive code, #archive abbr, #archive acronym {
     color: black; }
   #archive .grid {
@@ -4053,7 +4132,7 @@ button, .button {
     -o-transition: background-color 0.3s;
     transition: background-color 0.3s; }
     #archive .grid a:hover, #archive .grid a.active {
-      background-color: #6a2569; }
+      background-color: #3a1549; }
     #archive .grid a .month {
       color: white;
       line-height: 1.5em;
@@ -4087,9 +4166,9 @@ button, .button {
   #footer h1, #footer h2, #footer h3, #footer #archive .grid a .day, #archive .grid a #footer .day, #footer h4, #footer h5, #footer h6, #footer #archive .grid a .month, #archive .grid a #footer .month, #footer .subheader, #footer p, #footer blockquote, #footer small, #footer #archive .grid a .year, #archive .grid a #footer .year {
     color: #a6a6a6; }
   #footer a {
-    color: #a339a1; }
+    color: #692684; }
     #footer a:hover, #footer a:active {
-      color: #ba70b9; }
+      color: #9263a5; }
   #footer code, #footer abbr, #footer acronym {
     color: gray; }
   #footer .row {
@@ -4097,4 +4176,4 @@ button, .button {
     #footer .row p {
       line-height: 1em; }
       #footer .row p a {
-        color: #a339a1; }
+        color: #692684; }
