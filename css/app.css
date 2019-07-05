@@ -4154,6 +4154,9 @@ button, .button {
       line-height: 2em;
       border-radius: 0 0 0.25em 0.25em; }
 
+.spkimage {
+  margin-top: 88px; }
+
 #footer {
   color: #a6a6a6;
   background: #f2f2f2 url(../img/now-edition-4.jpg);
