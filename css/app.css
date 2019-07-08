@@ -3838,7 +3838,8 @@ button, .button {
   background: #3a1549 url(../img/now-edition-4.jpg);
   background-size: 2014px 1024px;
   background-repeat: repeat;
-  background: #48407c; }
+  background: #48407c;
+  text-align: justify; }
   #speakerinfo h1, #speakerinfo h2, #speakerinfo h3, #speakerinfo #archive .grid a .day, #archive .grid a #speakerinfo .day, #speakerinfo h4, #speakerinfo h5, #speakerinfo h6, #speakerinfo #archive .grid a .month, #archive .grid a #speakerinfo .month, #speakerinfo .subheader, #speakerinfo p, #speakerinfo blockquote, #speakerinfo small, #speakerinfo #archive .grid a .year, #archive .grid a #speakerinfo .year {
     color: white; }
   #speakerinfo a {
@@ -3867,10 +3868,12 @@ button, .button {
     #speakerinfo .timings .row .summary {
       position: relative; }
       #speakerinfo .timings .row .summary p {
+        text-align: justify;
         margin-bottom: 0; }
       #speakerinfo .timings .row .summary small, #speakerinfo .timings .row .summary #archive .grid a .year, #archive .grid a #speakerinfo .timings .row .summary .year {
         line-height: 1rem;
-        display: inline-block; }
+        display: inline-block;
+        text-align: center; }
       #speakerinfo .timings .row .summary img {
         display: block;
         margin: 0.5em auto;
@@ -3880,14 +3883,15 @@ button, .button {
         white-space: nowrap; }
     @media only screen and (min-width: 768px) {
       #speakerinfo .timings .row p {
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        text-align: justify; }
       #speakerinfo .timings .row .time {
         -webkit-transform-origin: 100% 50%;
         -moz-transform-origin: 100% 50%;
         -ms-transform-origin: 100% 50%;
         -o-transform-origin: 100% 50%;
         transform-origin: 100% 50%;
-        text-align: right; }
+        text-align: justify; }
         #speakerinfo .timings .row .time p:after {
           display: block;
           content: "\00A7";
@@ -3900,15 +3904,13 @@ button, .button {
         -ms-transform-origin: 0% 50%;
         -o-transform-origin: 0% 50%;
         transform-origin: 0% 50%;
-        text-align: left; }
+        text-align: center; }
         #speakerinfo .timings .row .summary p {
           padding-right: 3.15em; }
         #speakerinfo .timings .row .summary img {
           position: absolute;
           right: 1em;
-          margin-top: -1.5em; }
-        #speakerinfo .timings .row .summary .speaker_description {
-          text-align: justify; } }
+          margin-top: -1.5em; } }
     #speakerinfo .timings .row:hover {
       background-color: #592071; }
 
@@ -3932,7 +3934,7 @@ button, .button {
     display: block;
     padding-bottom: 0.5em; }
   #location .address a {
-    color: #3a1549; }
+    color: tan; }
   @media only screen and (min-width: 768px) {
     #location .address p {
       text-align: right; }
@@ -3948,15 +3950,15 @@ button, .button {
   #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h4, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
     color: white; }
   #about a {
-    color: #3a1549; }
+    color: tan; }
     #about a:hover, #about a:active {
-      color: #32183d; }
+      color: #9d886c; }
   #about code, #about abbr, #about acronym {
     color: #d9d9d9; }
   #about .social a {
     font-size: 1.5em;
     display: inline-block;
-    color: #222222;
+    color: tan;
     background-color: white;
     border-radius: 50%;
     width: 1.5em;
@@ -3983,7 +3985,7 @@ button, .button {
       left: 50%; }
     #about .social a:hover, #about .social a:focus {
       color: white;
-      background-color: #3a1549; }
+      background-color: tan; }
       #about .social a:hover i, #about .social a:focus i {
         -webkit-animation: flip 1s 0s ease both;
         -moz-animation: flip 1s 0s ease both;
