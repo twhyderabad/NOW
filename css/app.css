@@ -3809,7 +3809,7 @@ button, .button {
         -o-transform-origin: 100% 50%;
         transform-origin: 100% 50%;
         text-align: right; }
-        #agenda .timings .row .time p:after {
+        #agenda .timings .row .time p {
           display: block;
           content: "\00A7";
           position: absolute;
