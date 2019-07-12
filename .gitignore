@@ -32,3 +32,4 @@ tmp
 .bundle
 .rvmrc
 .idea/
+Gemfile.lock
