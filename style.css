@@ -1,0 +1,266 @@
+:root {
+  --spacing: 20px;
+  --header-height: 100px;
+  --grey-color: #F5F5F5;
+  --pink-color: #B11C54;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+figure {
+  margin: 0;  
+}
+
+
+body > header {
+  background: white;
+  height: var(--header-height);
+}
+
+
+body > header > figure > img {
+  height: var(--header-height);
+}
+
+.page-section {
+  min-height: 40vh;
+  padding: calc(var(--spacing) * 3) 10vw 0 10vw;
+}
+
+.page-section > header {
+  background: white;
+  min-height: var(--header-height);
+  text-align: center;
+  font-size: calc(1em + 1vw);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+#jumbotron {
+  color: white;
+  background: url(assets/now-edition-4.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding-bottom: calc(var(--spacing) * 3);
+}
+
+#jumbotron > * {
+  margin: 0px auto;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#jumbotron > h3, #jumbotron > h1 {
+  text-transform: uppercase;
+}
+
+#jumbotron > h3, #jumbotron section h3 {
+  font-size: calc(1em + .5vw);
+}
+
+#jumbotron > h3 {
+  font-weight: 700;
+}
+
+#jumbotron > h1 {
+  margin: var(--spacing) auto;
+  font-size: calc(1em + 3vw);
+  font-weight: 800;
+}
+
+#jumbotron > section * {
+  margin: 1vw auto;
+  padding: 0;
+}
+
+#jumbotron > section {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  min-width: 250px;
+  padding-top: var(--spacing);
+  padding-bottom: var(--spacing);
+}
+
+#event-description {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#event-description .description, #event-description .image-area,
+#event-location .description, #event-location .image-area {
+  min-height: 30vh;
+  width: 48%;
+  background: white;
+}
+
+#event-description .description,
+#event-location .description {
+  font-size: calc(1em + .2vw);
+}
+
+#event-description .image-area > figure > img,
+#event-location .image-area > figure > img {
+  height: auto;
+  width: 100%;
+}
+
+#event-location > div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: calc(var(--spacing) * 3);
+}
+
+#event-location {
+  padding-bottom: calc(var(--spacing) * 3);
+}
+
+.call-to-action {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 60px;
+  width: 300px;
+  background: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: calc(1em + .2vw);
+}
+
+
+#agenda > header {
+  text-align: center;
+  font-size: calc(1em + 1vw);
+}
+
+#agenda > section {
+  margin-top: calc(var(--spacing) * 2);
+}
+
+table {
+  width: 80vw;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+tr > :first-child {
+  width: 30%;
+}
+
+tr {
+  height: 60px;
+}
+
+td {
+  text-align: center;
+}
+
+#speakers {
+  padding: 0;
+}
+
+#speakers > header {
+  padding: calc(var(--spacing) * 3) 0;
+}
+
+.speaker-section:nth-child(even) {
+  background: var(--grey-color);
+}
+
+.speaker-section:nth-child(odd) {
+  flex-flow: row-reverse wrap;
+}
+
+.speaker-section {
+  min-height: 10vh;
+  padding: calc(var(--spacing) * 3) 10vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+
+.speaker-section > figure {
+  width: 48%;
+}
+
+.speaker-section > figure > img {
+  height: auto;
+  width: 100%;
+}
+
+.speaker-section > .text-content {
+  width: 45%;
+}
+
+.speaker-section > .text-content > header {
+  color: var(--pink-color);
+  font-size: calc(1em + 2vw); 
+}
+
+.speaker-section > .text-content > p {
+  font-size: calc(1em + .5vw); 
+  line-height: 30px;
+}
+
+#last-cta {
+  background: #26BDCF;
+  color: white;
+  min-height: 50vh;
+}
+
+#last-cta > h1 {
+  font-size: calc(2em + 4vw);
+  text-transform: uppercase ;
+}
+
+#last-cta > p {
+  font-size: calc(1em + 0.5vw);
+}
+
+@media screen and (max-width: 768px) {
+  .page-section, .speaker-section {
+    flex-flow: column wrap !important;
+    justify-content: flex-start;
+  }
+
+  .page-section section, .speaker-section figure {
+    width: 80vw !important;
+  }
+
+  .call-to-action {
+    width: 100%;
+  }
+  #agenda > section {
+    margin-top: var(--spacing);
+  }
+
+  #event-description img {
+    margin-top: var(--spacing);
+  }
+
+  .page-section img {
+    margin-bottom: var(--spacing);
+  }
+
+  .page-section > header {
+    min-height: calc(var(--header-height) / 2);
+  }
+
+  td {
+    font-size: calc(.8em);
+  }
+}
