@@ -263,4 +263,12 @@ td {
   td {
     font-size: calc(.8em);
   }
+
+  #last-cta {
+    padding-bottom: calc(var(--spacing) * 3); 
+  }
+
+  #event-location .description {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
 }
