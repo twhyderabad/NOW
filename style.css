@@ -103,6 +103,7 @@ body > header > figure > img {
 #event-description .description,
 #event-location .description {
   font-size: calc(1em + .2vw);
+  line-height: 30px;
 }
 
 #event-description .image-area > figure > img
@@ -225,7 +226,7 @@ th {
 
 .speaker-section > .text-content > p {
   font-size: calc(1em + .5vw); 
-  line-height: 30px;
+  line-height: 32px;
 }
 
 #last-cta {
