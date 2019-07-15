@@ -129,6 +129,7 @@ body > header > figure > img {
   height: auto;
   width: 100%;
   transform: scale(2);
+  -webkit-filter: brightness(120%);
   filter: brightness(120%);
 }
 
