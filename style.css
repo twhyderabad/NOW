@@ -57,7 +57,7 @@ body > header > figure > img {
   text-transform: capitalize;
 }
 
-#jumbotron > h3, #jumbotron > h1 {
+#jumbotron > h3 {
   text-transform: uppercase;
 }
 
@@ -70,9 +70,9 @@ body > header > figure > img {
 }
 
 #jumbotron > h1 {
-  margin: var(--spacing) auto;
-  font-size: calc(1em + 3vw);
-  font-weight: 800;
+  margin: calc(var(--spacing) * 2) auto 0 auto;
+  font-size: calc(1em + 1vw);
+  font-weight: 600;
 }
 
 #jumbotron > section * {
@@ -120,11 +120,18 @@ body > header > figure > img {
   line-height: 30px;
 }
 
+#event-description .image-area > figure {
+  overflow: hidden;
+}
+
 #event-description .image-area > figure > img
  {
   height: auto;
   width: 100%;
+  transform: scale(2);
+  filter: brightness(120%);
 }
+
 #event-location .image-area iframe  {
   height: 60vh;
   width: 100%;
@@ -176,7 +183,7 @@ body > header > figure > img {
 }
 
 table {
-  width: 40vw;
+  width: 30vw;
   margin: 0 auto;
   border-collapse: collapse;
   text-align: left;
@@ -246,7 +253,7 @@ th {
   color: var(--pink-color);
   font-size: calc(1em + 2.5vw); 
   font-weight: lighter;
-  margin-top: var(--spacing);
+  line-height: 2.4vw;
 }
 
 .speaker-section > .text-content > p {
