@@ -30,7 +30,7 @@ body > header > figure > img {
 
 .page-section > header {
   background: white;
-  min-height: var(--header-height);
+  min-height: calc(var(--header-height) / 2);
   text-align: center;
   font-size: calc(1em + 1vw);
   display: flex;
@@ -89,15 +89,16 @@ body > header > figure > img {
 }
 
 #jumbotron > .first-section {
-  width: 40vw;
+  width: 30vw;
   margin-bottom: calc(var(--spacing) * 2);
+  margin-top: calc(var(--spacing) * 2);
 }
 
 #jumbotron > .second-section > h3 {
   font-weight: 100;
   font-style: italic;
   letter-spacing: 1.5vw;
-  font-size: calc(1em + 2vw);
+  font-size: calc(1em + 1vw);
 }
 
 #event-description {
@@ -175,25 +176,28 @@ body > header > figure > img {
 }
 
 table {
-  width: 50vw;
+  width: 40vw;
   margin: 0 auto;
   border-collapse: collapse;
+  text-align: left;
 }
 
-table, th, td {
-  border: 1px solid black;
+thead {
+  background: #EE5BA0;
+  color: white;
+  
 }
 
-tr > :first-child {
-  width: 30%;
+tbody > tr:nth-child(odd) {
+  background: #F9F4F7;
 }
 
 tr {
   height: 60px;
 }
 
-td {
-  text-align: center;
+td, th {
+  padding-left: 2vw;
 }
 
 th {
@@ -205,7 +209,7 @@ th {
 }
 
 #speakers > header {
-  padding: calc(var(--spacing) * 3) 0;
+  padding: calc(var(--spacing) * 1.5) 0;
 }
 
 .speaker-section:nth-child(even) {
@@ -240,8 +244,9 @@ th {
 
 .speaker-section > .text-content > header {
   color: var(--pink-color);
-  font-size: calc(1em + 2vw); 
+  font-size: calc(1em + 2.5vw); 
   font-weight: lighter;
+  margin-top: var(--spacing);
 }
 
 .speaker-section > .text-content > p {
@@ -264,6 +269,23 @@ th {
 #last-cta > p {
   font-size: calc(1em + 0.5vw);
 }
+
+address {
+  font-style: normal;
+}
+
+address a {
+  text-decoration: none;
+  font-style: normal;
+  color: #2abbce;
+  font-weight: bold;
+}
+
+address a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 
 @media screen and (max-width: 768px) {
   .page-section, .speaker-section {
@@ -312,7 +334,7 @@ th {
   }
 
   #jumbotron > .first-section {
-    width: 60vw;
+    width: 40vw;
     margin-bottom: 0;
   }
 }
