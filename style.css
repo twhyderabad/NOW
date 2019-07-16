@@ -2,7 +2,7 @@
   --spacing: 20px;
   --header-height: 100px;
   --grey-color: #F5F5F5;
-  --pink-color: #B11C54;
+  --pink-color: #f68831;
 }
 
 body {
@@ -18,9 +18,18 @@ body > header {
   height: var(--header-height);
 }
 
+body > header > figure {
+  height: var(--header-height);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 300px;
+}
+
 
 body > header > figure > img {
-  height: var(--header-height);
+  height: calc(var(--header-height) / 2);
+  margin: 0 var(--spacing);
 }
 
 .page-section {
@@ -81,8 +90,6 @@ body > header > figure > img {
 }
 
 #jumbotron > section {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
   min-width: 250px;
   padding-top: var(--spacing);
   padding-bottom: var(--spacing);
@@ -95,10 +102,9 @@ body > header > figure > img {
 }
 
 #jumbotron > .second-section > h3 {
-  font-weight: 100;
-  font-style: italic;
-  letter-spacing: 1.5vw;
-  font-size: calc(1em + 1vw);
+  font-weight: 700;
+  letter-spacing: -.1vw;
+  font-size: calc(1em + 3vw);
 }
 
 #event-description {
@@ -122,6 +128,7 @@ body > header > figure > img {
 
 #event-description .image-area > figure {
   overflow: hidden;
+  margin-top: var(--spacing);
 }
 
 #event-description .image-area > figure > img
@@ -155,7 +162,7 @@ body > header > figure > img {
   justify-content: center;
   height: 60px;
   width: 300px;
-  background: black;
+  background: #03bdce ;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -170,7 +177,7 @@ body > header > figure > img {
 
 .inverted-cta {
   background: white;
-  color: black;
+  color: #03bdce;
   margin: calc(var(--spacing) * 2) auto !important;
 }
 
@@ -191,13 +198,12 @@ table {
 }
 
 thead {
-  background: #EE5BA0;
+  background: #03bdce;
   color: white;
-  
 }
 
 tbody > tr:nth-child(odd) {
-  background: #F9F4F7;
+  background: #f0f7f7;
 }
 
 tr {
@@ -285,7 +291,7 @@ address {
 address a {
   text-decoration: none;
   font-style: normal;
-  color: #2abbce;
+  color: #03bdce;
   font-weight: bold;
 }
 
