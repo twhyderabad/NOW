@@ -1,24 +1,24 @@
 :root {
   --spacing: 20px;
   --header-height: 100px;
-  --grey-color: #F5F5F5;
+  --grey-color: #f5f5f5;
   --pink-color: #f68831;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 figure {
-  margin: 0;  
+  margin: 0;
 }
 
-body > header {
+#app > header {
   background: white;
   height: var(--header-height);
 }
 
-body > header > figure {
+#app > header > figure {
   height: var(--header-height);
   display: flex;
   flex-flow: column;
@@ -26,8 +26,7 @@ body > header > figure {
   width: 300px;
 }
 
-
-body > header > figure > img {
+#app > header > figure > img {
   height: calc(var(--header-height) / 2);
   margin: 0 var(--spacing);
 }
@@ -70,8 +69,9 @@ body > header > figure > img {
   text-transform: uppercase;
 }
 
-#jumbotron > h3, #jumbotron section h3 {
-  font-size: calc(1em + .5vw);
+#jumbotron > h3,
+#jumbotron section h3 {
+  font-size: calc(1em + 0.5vw);
 }
 
 #jumbotron > h3 {
@@ -103,7 +103,7 @@ body > header > figure > img {
 
 #jumbotron > .second-section > h3 {
   font-weight: 700;
-  letter-spacing: -.1vw;
+  letter-spacing: -0.1vw;
   font-size: calc(1em + 3vw);
 }
 
@@ -113,8 +113,10 @@ body > header > figure > img {
   justify-content: space-between;
 }
 
-#event-description .description, #event-description .image-area,
-#event-location .description, #event-location .image-area {
+#event-description .description,
+#event-description .image-area,
+#event-location .description,
+#event-location .image-area {
   min-height: 30vh;
   width: 48%;
   background: white;
@@ -122,7 +124,7 @@ body > header > figure > img {
 
 #event-description .description,
 #event-location .description {
-  font-size: calc(1em + .2vw);
+  font-size: calc(1em + 0.2vw);
   line-height: 30px;
 }
 
@@ -131,8 +133,7 @@ body > header > figure > img {
   margin-top: var(--spacing);
 }
 
-#event-description .image-area > figure > img
- {
+#event-description .image-area > figure > img {
   height: auto;
   width: 100%;
   transform: scale(2);
@@ -140,7 +141,7 @@ body > header > figure > img {
   filter: brightness(120%);
 }
 
-#event-location .image-area iframe  {
+#event-location .image-area iframe {
   height: 60vh;
   width: 100%;
 }
@@ -162,11 +163,11 @@ body > header > figure > img {
   justify-content: center;
   height: 60px;
   width: 300px;
-  background: #03bdce ;
+  background: #03bdce;
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: calc(1em + .2vw);
+  font-size: calc(1em + 0.2vw);
   transition: box-shadow 0.2s;
 }
 
@@ -210,7 +211,8 @@ tr {
   height: 60px;
 }
 
-td, th {
+td,
+th {
   padding-left: 2vw;
 }
 
@@ -242,7 +244,6 @@ th {
   justify-content: space-evenly;
 }
 
-
 .speaker-section > figure {
   width: 300px;
 }
@@ -258,26 +259,26 @@ th {
 
 .speaker-section > .text-content > header {
   color: var(--pink-color);
-  font-size: calc(1em + 2.5vw); 
+  font-size: calc(1em + 2.5vw);
   font-weight: lighter;
   line-height: 2.4vw;
 }
 
 .speaker-section > .text-content > p {
-  font-size: calc(1em + .5vw); 
+  font-size: calc(1em + 0.5vw);
   line-height: 32px;
   font-weight: lighter;
 }
 
 #last-cta {
-  background: #26BDCF;
+  background: #26bdcf;
   color: white;
   min-height: 50vh;
 }
 
 #last-cta > h1 {
   font-size: calc(2em + 4vw);
-  text-transform: uppercase ;
+  text-transform: uppercase;
 }
 
 #last-cta > p {
@@ -300,14 +301,15 @@ address a:hover {
   text-decoration: underline;
 }
 
-
 @media screen and (max-width: 768px) {
-  .page-section, .speaker-section {
+  .page-section,
+  .speaker-section {
     flex-flow: column wrap !important;
     justify-content: flex-start;
   }
 
-  .page-section section, .speaker-section figure {
+  .page-section section,
+  .speaker-section figure {
     width: 80vw !important;
   }
 
@@ -331,18 +333,17 @@ address a:hover {
   }
 
   td {
-    font-size: calc(.8em);
+    font-size: calc(0.8em);
   }
 
   #last-cta {
-    padding-bottom: calc(var(--spacing) * 3); 
+    padding-bottom: calc(var(--spacing) * 3);
   }
-
 
   table {
     width: 80vw;
   }
-  #event-location iframe  {
+  #event-location iframe {
     width: 80vw !important;
     height: 40vh;
   }
