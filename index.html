@@ -89,116 +89,19 @@
         <header>
           Speakers
         </header>
-        <section class="speaker-section">
+        <section class="speaker-section" v-for="speaker in eventData.speakers">
           <figure>
-            <img src="assets/NOW-Insta_TW-NOW-Nayana.jpg" alt="Nayana Udipi's Photo">
+            <img :src="'assets/' + speaker.imageName" alt="Nayana Udipi's Photo">
           </figure>
           <section class="text-content">
             <header>
-              Nayana Udipi
+              {{speaker.name}}
             </header>
             <p>
-              Nayana Udipi is currently part of ThoughtWorks' India marketing team. Prior to ThoughtWorks, Nayana worked
-              with Sangama, an NGO that works to secure the rights of sexual minorities. Nayana's progressive thought is a
-              regular feature at LGBTQI related conferences, workshops and panel discussions.
+              {{speaker.description}}
             </p>
           </section>
         </section>
-        <section class="speaker-section">
-          <figure>
-            <img src="assets/NOW-Insta_TW-NOW-Shanta.jpg" alt="Dr. Shanta Thoutam's Photo">
-          </figure>
-          <section class="text-content">
-            <header>
-              Dr. Shanta Thoutam
-            </header>
-            <p>
-              Shanta is the Vice President of Corporate Innovation & Business Development at T-hub. As a Woman Innovation
-              Leader in the largest Incubator of India, she has been supporting not only the overall entrepreneurial
-              ecosystem to thrive, but also the Women Entrepreneurs, Women in Tech, and Girls in Tech on how to carve a
-              niche for themselves.
-            </p>
-          </section>
-        </section>
-        <section class="speaker-section">
-          <figure>
-            <img src="assets/NOW-Insta_TW-NOW-Rema.jpg" alt="Rema Rajeshwari's Photo">
-          </figure>
-          <section class="text-content">
-            <header>
-              Rema Rajeshwari
-            </header>
-            <p>
-              The Telangana Superintendent of Police wields her baton and pen with equal ease. Through her collaborative
-              policing efforts, she encourages women to break gender stereotypes and empower them to emerge as leaders.
-              She writes widely on policing, women, children, and the less fortunate with a passion for scholarly
-              accuracy.
-            </p>
-          </section>
-        </section>
-        <section class="speaker-section">
-          <figure>
-            <img src="assets/NOW-Insta_TW-NOW-Vijaya.jpg" alt="Dr. Vijaya Krishnan's Photo">
-          </figure>
-          <section class="text-content">
-            <header>
-              Dr. Vijaya Krishnan
-            </header>
-            <p>
-              Dr. Vijaya Krishnan is a Certified Professional Midwife (CPM), and the co-founder and Director of The
-              Sanctum, a Natural Birth Centre. She believes strongly that respectful maternity care is the most important
-              key in helping women to have an informed and empowered child birth.
-
-            </p>
-          </section>
-        </section>
-        <section class="speaker-section">
-          <figure>
-            <img src="assets/NOW-Insta_TW-NOW-Anupama.jpg" alt="Anupama Dalmia's Photo">
-          </figure>
-          <section class="text-content">
-            <header>
-              Anupama Dalmia
-            </header>
-            <p>
-              Anupama Dalmia is a multiple award winning blogger, author, influencer, creative writing mentor and a
-              multi-faceted entrepreneur. Her journey of having resigned from a lucrative IT job to pursue her passions
-              and build a career from scratch has been covered extensively to motivate people to believe in themselves and
-              never say “never”.
-            </p>
-          </section>
-        </section>
-        <section class="speaker-section">
-          <figure>
-            <img src="assets/NOW-Insta_TW-NOW-Ranjana.jpg" alt="Ranjana Naik's Photo">
-          </figure>
-          <section class="text-content">
-            <header>
-              Ranjana Naik
-            </header>
-            <p>
-              Ranjana Naik is the Founder Director of Swan Suites serviced apartments in Hyderabad. An ISB alumnus and a
-              scholar from Goldman Sachs, she has 17 years of experience as an entrepreneur in Banking service, Telecom
-              and Hospitality.
-            </p>
-          </section>
-        </section>
-        <section class="speaker-section">
-          <figure>
-            <img src="assets/NOW-Insta_TW-NOW-Piya.jpg" alt="Ranjana Naik's Photo">
-          </figure>
-          <section class="text-content">
-            <header>
-              Piya Bahadur
-            </header>
-            <p>
-              Piya Bahadur completed a 17,000-kilometre all women motorcycle expedition last year from Hyderabad to
-              Vietnam and back. Previously, Piya was the Regional Director of the United States-India Education Foundation
-              (USIEF), has also worked on Entrepreneurship Development at The Indian School of Business (ISB).
-            </p>
-          </section>
-        </section>
-
       </article>
       <article id="event-location" class="page-section">
         <header>

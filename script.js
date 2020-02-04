@@ -44,6 +44,46 @@ const app = new Vue({
           name: "Feedback & Networking",
           timings: "02:30 PM"
         }
+      ],
+      speakers: [
+        {
+          name: "Nayana Udipi",
+          description: `Nayana Udipi is currently part of ThoughtWorks' India marketing team. Prior to ThoughtWorks, Nayana worked
+          with Sangama, an NGO that works to secure the rights of sexual minorities. Nayana's progressive thought is a
+          regular feature at LGBTQI related conferences, workshops and panel discussions.`,
+          imageName: "NOW-Insta_TW-NOW-Nayana.jpg"
+        },
+        {
+          name: "Dr. Shanta Thoutam",
+          description: `Shanta is the Vice President of Corporate Innovation & Business Development at T-hub. As a Woman Innovation
+          Leader in the largest Incubator of India, she has been supporting not only the overall entrepreneurial
+          ecosystem to thrive, but also the Women Entrepreneurs, Women in Tech, and Girls in Tech on how to carve a
+          niche for themselves.`,
+          imageName: "NOW-Insta_TW-NOW-Shanta.jpg"
+        },
+        {
+          name: "Rema Rajeshwari",
+          description: `The Telangana Superintendent of Police wields her baton and pen with equal ease. Through her collaborative
+          policing efforts, she encourages women to break gender stereotypes and empower them to emerge as leaders.
+          She writes widely on policing, women, children, and the less fortunate with a passion for scholarly
+          accuracy.`,
+          imageName: "NOW-Insta_TW-NOW-Rema.jpg"
+        },
+        {
+          name: "Dr. Vijaya Krishnan",
+          description: `Dr. Vijaya Krishnan is a Certified Professional Midwife (CPM), and the co-founder and Director of The
+          Sanctum, a Natural Birth Centre. She believes strongly that respectful maternity care is the most important
+          key in helping women to have an informed and empowered child birth.`,
+          imageName: "NOW-Insta_TW-NOW-Vijaya.jpg"
+        },
+        {
+          name: "Anupama Dalmia",
+          description: `Anupama Dalmia is a multiple award winning blogger, author, influencer, creative writing mentor and a
+          multi-faceted entrepreneur. Her journey of having resigned from a lucrative IT job to pursue her passions
+          and build a career from scratch has been covered extensively to motivate people to believe in themselves and
+          never say “never”.`,
+          imageName: "NOW-Insta_TW-NOW-Anupama.jpg"
+        }
       ]
     }
   },
