@@ -29,60 +29,61 @@ const app = new Vue({
           timings: "11:00 AM - 11:45 AM"
         },
         {
-          name: "Ice Breaker",
-          timings: "11:45 AM - 12:00 PM"
+          name: "Energiser",
+          timings: "11:45 AM - 12:15 PM"
+        },
+        {
+          name: "Speaker 3",
+          timings: "12:15 PM - 01:00 PM"
         },
         {
           name: "Lunch",
-          timings: "12:00 PM - 12:30 PM"
+          timings: "01:00 PM - 02:00 PM"
         },
         {
-          name: "Panel Discussion",
-          timings: "01:30 PM - 02:30 PM"
+          name: "Workshop",
+          timings: "02:00 PM - 03:00 PM"
         },
         {
-          name: "Feedback & Networking",
-          timings: "02:30 PM"
+          name: "OpenMic, Feedback & Networking",
+          timings: "03:00 PM"
         }
       ],
       speakers: [
         {
-          name: "Nayana Udipi",
-          description: `Nayana Udipi is currently part of ThoughtWorks' India marketing team. Prior to ThoughtWorks, Nayana worked
-          with Sangama, an NGO that works to secure the rights of sexual minorities. Nayana's progressive thought is a
-          regular feature at LGBTQI related conferences, workshops and panel discussions.`,
-          imageName: "NOW-Insta_TW-NOW-Nayana.jpg"
+          name: "Aruna kappagantula",
+          description: `Aruna kappagantula is a serial social entrepreneur, Her first enterprise“
+          Bamboo house India”(BHI) which specializes in  creating low cost bamboo shelters, resulting in a sustainable livelihood,  
+          “Recycled India” works in creating plastic waste to low cost shelters which otherwise would end up in landfills and water bodies.
+          BHI business models have been globally recognized with universities like Harvard, Cornell, Kellogg. 
+          She has been featured in over 1000 magazines, newspapers and TV channels. Her innovative business models have touched more than 75000 livelihoods till date.
+          `,
+          imageName: "Aruna.png"
         },
         {
-          name: "Dr. Shanta Thoutam",
-          description: `Shanta is the Vice President of Corporate Innovation & Business Development at T-hub. As a Woman Innovation
-          Leader in the largest Incubator of India, she has been supporting not only the overall entrepreneurial
-          ecosystem to thrive, but also the Women Entrepreneurs, Women in Tech, and Girls in Tech on how to carve a
-          niche for themselves.`,
-          imageName: "NOW-Insta_TW-NOW-Shanta.jpg"
+          name: "Mallika Bajaj",
+          description: `She is Founder Director and CMO at Little Yellow Beetle Media Pvt Ltd. 
+          Mallika completed her BA in Media and Communications at the University of Melbourne and went on to successfully pursue a Masters in Media and Communications from Goldsmiths, University of London, where she acquired knowledge, skills, and the confidence to establish her own company at 23.
+          She's the youngest female in Asia to have set up 3 successful tech business's all under 30, Entrepreneur of the Year, India (2019).
+          `,
+          imageName: "Mallika.png"
         },
         {
-          name: "Rema Rajeshwari",
-          description: `The Telangana Superintendent of Police wields her baton and pen with equal ease. Through her collaborative
-          policing efforts, she encourages women to break gender stereotypes and empower them to emerge as leaders.
-          She writes widely on policing, women, children, and the less fortunate with a passion for scholarly
-          accuracy.`,
-          imageName: "NOW-Insta_TW-NOW-Rema.jpg"
+          name: "Vasuki Balasubramanian",
+          description: `Vasuki is born in to an orthodox family, began her movie career at the age of 14 with the prestigious director Mr. K.Balachander.
+          Managed academics and cinema successfully and completed BA English literature and secured a state award  for best supporting actress.
+          Finished her MBA with ICFAI and a mother of two kids, Experienced the IT industry  while working as an HR recruiter in Google for 3 years. 
+          Today, she is the director of Ealain Events Private LTD, her passion towards successfully exploring multiple fields would always let someone be inspired.`,
+          imageName: "Vasuki.png"
         },
         {
-          name: "Dr. Vijaya Krishnan",
-          description: `Dr. Vijaya Krishnan is a Certified Professional Midwife (CPM), and the co-founder and Director of The
-          Sanctum, a Natural Birth Centre. She believes strongly that respectful maternity care is the most important
-          key in helping women to have an informed and empowered child birth.`,
-          imageName: "NOW-Insta_TW-NOW-Vijaya.jpg"
-        },
-        {
-          name: "Anupama Dalmia",
-          description: `Anupama Dalmia is a multiple award winning blogger, author, influencer, creative writing mentor and a
-          multi-faceted entrepreneur. Her journey of having resigned from a lucrative IT job to pursue her passions
-          and build a career from scratch has been covered extensively to motivate people to believe in themselves and
-          never say “never”.`,
-          imageName: "NOW-Insta_TW-NOW-Anupama.jpg"
+          name: "Tanuja Abburi",
+          description: `Tanuja is known for many noteworthy milestones and contributions towards the development and nurturing of talent. 
+          With Executive Management Degree from Cornell University, She has played key leadership roles in organizations like NTT Data, GE, 
+          Bank of America with her career spanning more than 20 years in Human resources. She is an entrepreneur and founder of Beyond Pinks, 
+          leveraged her passion and expertise in talent development to provide a support system for women to sustain their career,
+          return to their jobs and flourish.`,
+          imageName: "Tanuja.png"
         }
       ]
     }
