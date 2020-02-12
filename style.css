@@ -259,14 +259,14 @@ th {
 
 .speaker-section > .text-content > header {
   color: var(--pink-color);
-  font-size: calc(1em + 2.5vw);
+  font-size: calc(1rem + 2.5vw);
   font-weight: lighter;
-  line-height: 2.4vw;
+  line-height: calc(1rem + 2.4vw);
 }
 
 .speaker-section > .text-content > p {
-  font-size: calc(1em + 0.5vw);
-  line-height: 32px;
+  font-size: calc(0.6rem + 0.5vw);
+  line-height: calc(1rem + 0.5vw);
   font-weight: lighter;
 }
 
