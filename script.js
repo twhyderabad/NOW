@@ -69,14 +69,6 @@ const app = new Vue({
           imageName: "Mallika.png"
         },
         {
-          name: "Vasuki Balasubramanian",
-          description: `Vasuki is born in to an orthodox family, began her movie career at the age of 14 with the prestigious director Mr. K.Balachander.
-          Managed academics and cinema successfully and completed BA English literature and secured a state award  for best supporting actress.
-          Finished her MBA with ICFAI and a mother of two kids, Experienced the IT industry  while working as an HR recruiter in Google for 3 years. 
-          Today, she is the director of Ealain Events Private LTD, her passion towards successfully exploring multiple fields would always let someone be inspired.`,
-          imageName: "Vasuki.png"
-        },
-        {
           name: "Tanuja Abburi",
           description: `Tanuja is known for many noteworthy milestones and contributions towards the development and nurturing of talent. 
           With Executive Management Degree from Cornell University, She has played key leadership roles in organizations like NTT Data, GE, 
@@ -84,6 +76,14 @@ const app = new Vue({
           leveraged her passion and expertise in talent development to provide a support system for women to sustain their career,
           return to their jobs and flourish.`,
           imageName: "Tanuja.png"
+        },
+        {
+          name: "Vasuki Balasubramanian",
+          description: `Vasuki is born in to an orthodox family, began her movie career at the age of 14 with the prestigious director Mr. K.Balachander.
+          Managed academics and cinema successfully and completed BA English literature and secured a state award  for best supporting actress.
+          Finished her MBA with ICFAI and a mother of two kids, Experienced the IT industry  while working as an HR recruiter in Google for 3 years. 
+          Today, she is the director of Ealain Events Private LTD, her passion towards successfully exploring multiple fields would always let someone be inspired.`,
+          imageName: "Vasuki.png"
         }
       ]
     }
