@@ -84,6 +84,13 @@ const app = new Vue({
           Finished her MBA with ICFAI and a mother of two kids, Experienced the IT industry  while working as an HR recruiter in Google for 3 years. 
           Today, she is the director of Ealain Events Private LTD, her passion towards successfully exploring multiple fields would always let someone be inspired.`,
           imageName: "Vasuki.png"
+        },
+        {
+          name: "Gunjan Shukla",
+          description: `Gunjan's growth at ThoughtWorks is linked to the several caps that she has donned,
+          Starting from Business Analyst to Demand Operations Lead for India. She is a senior management professional with
+          proven expertise in building business and delivering technology programs. `,
+          imageName: "gunjan.png"
         }
       ]
     }
