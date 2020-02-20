@@ -48,7 +48,7 @@ figure {
 
 #jumbotron {
   color: white;
-  background: url(assets/now-hyd-bg.jpg) no-repeat;
+  background: url(assets/background.png) no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -128,17 +128,16 @@ figure {
   line-height: 30px;
 }
 
-#event-description .image-area > figure {
+#event-description .image-area > .team-img {
   overflow: hidden;
-  margin-top: var(--spacing);
-}
-
-#event-description .image-area > figure > img {
-  height: auto;
+  margin: auto;
+  height: 100%;
   width: 100%;
-  transform: scale(2);
   -webkit-filter: brightness(120%);
   filter: brightness(120%);
+  background: url(./assets/team.png) no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 #event-location .image-area iframe {
@@ -310,6 +309,12 @@ address a:hover {
 @media screen and (max-width: 768px) {
   table {
     width: 80vw;
+  }
+
+  .image-area {
+    margin-top: 5vw;
+    width: 80vw;
+    height: calc(400px - 100vw);
   }
 
   .speaker-section .img  {
