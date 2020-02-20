@@ -70,10 +70,11 @@ const app = new Vue({
         },
         {
           name: "Vasuki Balasubramanian",
-          description: `Vasuki is born in to an orthodox family, began her movie career at the age of 14 with the prestigious director Mr. K.Balachander.
-          Managed academics and cinema successfully and completed BA English literature and secured a state award  for best supporting actress.
-          Finished her MBA with ICFAI and a mother of two kids, Experienced the IT industry  while working as an HR recruiter in Google for 3 years. 
-          Today, she is the director of Ealain Events Private LTD, her passion towards successfully exploring multiple fields would always let someone be inspired.`,
+          description: `Vasuki was born in an orthodox family instead of which she began her movie career at the age of 14 with
+          the prestigious director Mr. K.Balachander. She secured a state award for best supporting actress while pursuing BA
+          in English literature. She finished her MBA from ICFAI  and worked as an HR recruiter for Google for 3 years.
+          Today, she is the director of Ealain Events Pvt. Ltd.. She is also a mother of two. Her passion towards
+          successfully exploring multiple fields is inspiring.`,
           imageName: "Vasuki.png"
         },
         {
