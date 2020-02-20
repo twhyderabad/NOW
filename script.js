@@ -3,8 +3,8 @@ const app = new Vue({
   data: {
     eventData: {
       theme: "Embracing possibilities",
-      desc: `\nWe talk about getting out of our comfort zone and facing impossible opportunities without fear. But in our journey we realise that there are many more obstacles than we had thought. Many of us stop at these and don’t move forward. But, there are some of us who __‘Embrace’__ these __possibilities__ with a giant leap of faith.
-      \n We at Thoughtworks believe in (tell the vision)\nN.O.W. stands for Network Of Women, an initiative by ThoughtWorks India to nurture a growing and connected community of women. N.O.W. is a forum for women looking to be part of an open and inclusive community, to come together, learn from each other and be inspired.    
+      desc: `\nWe talk about getting out of our comfort zone and facing impossible opportunities without fear. But in our journey we realise that there are many more obstacles than we had thought. Many of us stop at these and don’t move forward. But, there are some of us who __‘embrace’__ these __‘possibilities’__ with a giant leap of faith.
+      \nN.O.W. stands for Network Of Women, an initiative by ThoughtWorks India to nurture a growing and connected community of women. N.O.W. is a forum for women looking to be part of an open and inclusive community, to come together, learn from each other and be inspired.    
         `,
       date: "7th March, 2020",
       agenda: [
@@ -42,17 +42,17 @@ const app = new Vue({
         },
         {
           name: "Workshop",
-          timings: "02:00 PM - 03:00 PM"
+          timings: "02:00 PM - 03:30 PM"
         },
         {
           name: "OpenMic, Feedback & Networking",
-          timings: "03:00 PM"
+          timings: "03:30 PM"
         }
       ],
       speakers: [
         {
-          name: "Aruna kappagantula",
-          description: `Aruna kappagantula is a serial social entrepreneur, Her first enterprise“
+          name: "Aruna Kappagantula",
+          description: `Aruna Kappagantula is a serial social entrepreneur, her first enterprise“
           Bamboo house India”(BHI) which specializes in  creating low cost bamboo shelters, resulting in a sustainable livelihood,  
           “Recycled India” works in creating plastic waste to low cost shelters which otherwise would end up in landfills and water bodies.
           BHI business models have been globally recognized with universities like Harvard, Cornell, Kellogg. 
@@ -69,6 +69,14 @@ const app = new Vue({
           imageName: "Mallika.png"
         },
         {
+          name: "Vasuki Balasubramanian",
+          description: `Vasuki is born in to an orthodox family, began her movie career at the age of 14 with the prestigious director Mr. K.Balachander.
+          Managed academics and cinema successfully and completed BA English literature and secured a state award  for best supporting actress.
+          Finished her MBA with ICFAI and a mother of two kids, Experienced the IT industry  while working as an HR recruiter in Google for 3 years. 
+          Today, she is the director of Ealain Events Private LTD, her passion towards successfully exploring multiple fields would always let someone be inspired.`,
+          imageName: "Vasuki.png"
+        },
+        {
           name: "Tanuja Abburi",
           description: `Tanuja is known for many noteworthy milestones and contributions towards the development and nurturing of talent. 
           With Executive Management Degree from Cornell University, She has played key leadership roles in organizations like NTT Data, GE, 
@@ -78,18 +86,10 @@ const app = new Vue({
           imageName: "Tanuja.png"
         },
         {
-          name: "Vasuki Balasubramanian",
-          description: `Vasuki is born in to an orthodox family, began her movie career at the age of 14 with the prestigious director Mr. K.Balachander.
-          Managed academics and cinema successfully and completed BA English literature and secured a state award  for best supporting actress.
-          Finished her MBA with ICFAI and a mother of two kids, Experienced the IT industry  while working as an HR recruiter in Google for 3 years. 
-          Today, she is the director of Ealain Events Private LTD, her passion towards successfully exploring multiple fields would always let someone be inspired.`,
-          imageName: "Vasuki.png"
-        },
-        {
           name: "Gunjan Shukla",
-          description: `Gunjan's growth at ThoughtWorks is linked to the several caps that she has donned,
-          Starting from Business Analyst to Demand Operations Lead for India. She is a senior management professional with
-          proven expertise in building business and delivering technology programs. `,
+          description: `Gunjan's growth at ThoughtWorks is linked to the several caps that she has donned, 
+          Starting from Business Analyst to Demand Operations Lead for India. She is a senior management 
+          professional with proven expertise in building business and delivering technology programs.`,
           imageName: "gunjan.png"
         }
       ]
