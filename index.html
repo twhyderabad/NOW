@@ -90,9 +90,8 @@
           Speakers
         </header>
         <section class="speaker-section" v-for="speaker in eventData.speakers">
-          <figure>
-            <img :src="'assets/' + speaker.imageName" alt="Nayana Udipi's Photo">
-          </figure>
+          <div class="img" v-bind:style="{ 'background-image': 'url(assets/' + speaker.imageName + ')' }">
+          </div>
           <section class="text-content">
             <header>
               {{speaker.name}}
