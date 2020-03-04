@@ -3,10 +3,11 @@ const app = new Vue({
   data: {
     eventData: {
       theme: "Embracing possibilities",
-      desc: `\nWe talk about getting out of our comfort zone and facing impossible opportunities without fear. But in our journey we realise that there are many more obstacles than we had thought. Many of us stop at these and don’t move forward. But, there are some of us who __‘embrace’__ these __‘possibilities’__ with a giant leap of faith.
+      desc: `\n********************************\n [UPDATE] In the event of the recently diagnosed cases of COVID-19 in Hyderabad, as a precautionary measure, we would like to avoid large gatherings. Hence, we have decided to postpone "Network Of Women - Embracing Possibilities" that was scheduled to be hosted on 7th March, 2020 at ThoughtWorks, Hyderabad.
+      Please watch out here for further updates. We deeply regret the inconvenience caused.\n********************************\nWe talk about getting out of our comfort zone and facing impossible opportunities without fear. But in our journey we realise that there are many more obstacles than we had thought. Many of us stop at these and don’t move forward. But, there are some of us who __‘embrace’__ these __‘possibilities’__ with a giant leap of faith.
       \nN.O.W. stands for Network Of Women, an initiative by ThoughtWorks India to nurture a growing and connected community of women. N.O.W. is a forum for women looking to be part of an open and inclusive community, to come together, learn from each other and be inspired.    
         `,
-      date: "7th March, 2020",
+      date: "ThoughtWorks",
       agenda: [
         {
           name: "Registrations",
