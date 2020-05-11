@@ -6,60 +6,46 @@ const app = new Vue({
       desc: `\nWe talk about getting out of our comfort zone and facing impossible opportunities without fear. But in our journey we realise that there are many more obstacles than we had thought. Many of us stop at these and don’t move forward. But, there are some of us who __‘embrace’__ these __‘possibilities’__ with a giant leap of faith.
       \nN.O.W. stands for Network Of Women, an initiative by ThoughtWorks India to nurture a growing and connected community of women. N.O.W. is a forum for women looking to be part of an open and inclusive community, to come together, learn from each other and be inspired.    
         `,
-      date: "7th March, 2020",
+      date: "23rd May, 2020",
       agenda: [
         {
-          name: "Registrations",
-          timings: "9:00 AM - 9:30 AM"
-        },
-        {
           name: "Keynote",
-          timings: "9:30 AM - 10:00 AM"
+          timings: "10:00 AM - 10:20 AM"
         },
         {
           name: "Speaker 1",
-          timings: "10:00 AM - 10:45 AM"
+          timings: "10:20 AM - 10:50 AM"
+        },
+        {
+          name: "Personal branding",
+          timings: "10:50 AM - 11:10 AM"
         },
         {
           name: "Break (Tea + Snacks)",
-          timings: "10:45 AM - 11:00 AM"
+          timings: "11:10 AM - 11:20 AM"
         },
         {
           name: "Speaker 2",
-          timings: "11:00 AM - 11:45 AM"
-        },
-        {
-          name: "Energiser",
-          timings: "11:45 AM - 12:15 PM"
-        },
-        {
-          name: "Speaker 3",
-          timings: "12:15 PM - 01:00 PM"
-        },
-        {
-          name: "Lunch",
-          timings: "01:00 PM - 02:00 PM"
+          timings: "11:20 AM - 11:50 AM"
         },
         {
           name: "Workshop",
-          timings: "02:00 PM - 03:30 PM"
+          timings: "11:50 AM - 12:50 PM"
         },
         {
-          name: "OpenMic, Feedback & Networking",
-          timings: "03:30 PM"
-        }
+          name: "Thank you note",
+          timings: "12:50 PM"
+        },
       ],
       speakers: [
         {
-          name: "Aruna Kappagantula",
-          description: `Aruna Kappagantula is a serial social entrepreneur, her first enterprise“
-          Bamboo house India”(BHI) which specializes in  creating low cost bamboo shelters, resulting in a sustainable livelihood,  
-          “Recycled India” works in creating plastic waste to low cost shelters which otherwise would end up in landfills and water bodies.
-          BHI business models have been globally recognized with universities like Harvard, Cornell, Kellogg. 
-          She has been featured in over 1000 magazines, newspapers and TV channels. Her innovative business models have touched more than 75000 livelihoods till date.
-          `,
-          imageName: "Aruna.png"
+          name: "Gunjan Shukla",
+          description: `Gunjan's growth at ThoughtWorks is linked to the several caps that she has donned, 
+          Starting from Business Analyst to Demand Operations Lead for India. She is a senior management 
+          professional with proven expertise in building business and delivering technology programs.`,
+          imageName: "gunjan.png"
         },
+
         {
           name: "Mallika Bajaj",
           description: `She is Founder Director and CMO at Little Yellow Beetle Media Pvt Ltd. 
@@ -67,6 +53,11 @@ const app = new Vue({
           She's the youngest female in Asia to have set up 3 successful tech business's all under 30, Entrepreneur of the Year, India (2019).
           `,
           imageName: "Mallika.png"
+        },
+        {
+          name: "Sweta Abburi",
+          description: `Sweta Pittala is a ThoughtWorker with Management Consulting experience in Global markets.  She is a proud mom, mentor, and a coach who thinks strategically to define capabilities that organisations need to achieve superior commercial and customer outcomes. She enjoys problem-solving and applying data insights to business challenges.`,
+          imageName: "sweta.jpg"
         },
         {
           name: "Vasuki Balasubramanian",
@@ -86,13 +77,6 @@ const app = new Vue({
           return to their jobs and flourish.`,
           imageName: "Tanuja.png"
         },
-        {
-          name: "Gunjan Shukla",
-          description: `Gunjan's growth at ThoughtWorks is linked to the several caps that she has donned, 
-          Starting from Business Analyst to Demand Operations Lead for India. She is a senior management 
-          professional with proven expertise in building business and delivering technology programs.`,
-          imageName: "gunjan.png"
-        }
       ]
     }
   },
