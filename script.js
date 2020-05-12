@@ -55,7 +55,7 @@ const app = new Vue({
           imageName: "Mallika.png"
         },
         {
-          name: "Sweta Abburi",
+          name: "Sweta Pittala",
           description: `Sweta Pittala is a ThoughtWorker with Management Consulting experience in Global markets.  She is a proud mom, mentor, and a coach who thinks strategically to define capabilities that organisations need to achieve superior commercial and customer outcomes. She enjoys problem-solving and applying data insights to business challenges.`,
           imageName: "sweta.jpg"
         },
