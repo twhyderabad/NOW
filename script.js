@@ -3,7 +3,7 @@ const app = new Vue({
   data: {
     eventData: {
       theme: "Embracing possibilities",
-      desc: `\nWe talk about getting out of our comfort zone and facing impossible opportunities without fear. But in our journey we realise that there are many more obstacles than we had thought. Many of us stop at these and don’t move forward. But, there are some of us who __‘embrace’__ these __‘possibilities’__ with a giant leap of faith.
+      desc: `We talk about getting out of our comfort zone and facing impossible opportunities without fear. But in our journey we realise that there are many more obstacles than we had thought. Many of us stop at these and don’t move forward. But, there are some of us who __‘embrace’__ these __‘possibilities’__ with a giant leap of faith.
       \nN.O.W. stands for Network Of Women, an initiative by ThoughtWorks India to nurture a growing and connected community of women. N.O.W. is a forum for women looking to be part of an open and inclusive community, to come together, learn from each other and be inspired.    
         `,
       date: "23rd May, 2020",
