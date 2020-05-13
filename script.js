@@ -22,7 +22,7 @@ const app = new Vue({
           timings: "10:50 AM - 11:10 AM"
         },
         {
-          name: "Break (Tea + Snacks)",
+          name: "Break",
           timings: "11:10 AM - 11:20 AM"
         },
         {
@@ -30,12 +30,16 @@ const app = new Vue({
           timings: "11:20 AM - 11:50 AM"
         },
         {
-          name: "Workshop",
+          name: "True Potential - Workshop",
           timings: "11:50 AM - 12:50 PM"
         },
         {
           name: "Thank you note",
           timings: "12:50 PM"
+        },
+        {
+          name: "Networking",
+          timings: "01:00 PM onwards"
         },
       ],
       speakers: [
@@ -47,20 +51,7 @@ const app = new Vue({
           imageName: "gunjan.png"
         },
 
-        {
-          name: "Mallika Bajaj",
-          description: `She is Founder Director and CMO at Little Yellow Beetle Media Pvt Ltd. 
-          Mallika completed her BA in Media and Communications at the University of Melbourne and went on to successfully pursue a Masters in Media and Communications from Goldsmiths, University of London, where she acquired knowledge, skills, and the confidence to establish her own company at 23.
-          She's the youngest female in Asia to have set up 3 successful tech business's all under 30, Entrepreneur of the Year, India (2019).
-          `,
-          imageName: "Mallika.png"
-        },
-        {
-          name: "Sweta Pittala",
-          description: `Sweta Pittala is a ThoughtWorker with Management Consulting experience in Global markets.  She is a proud mom, mentor, and a coach who thinks strategically to define capabilities that organisations need to achieve superior commercial and customer outcomes. She enjoys problem-solving and applying data insights to business challenges.`,
-          imageName: "sweta.jpg"
-        },
-        {
+         {
           name: "Vasuki Balasubramanian",
           description: `Vasuki was born in an orthodox family instead of which she began her movie career at the age of 14 with
           the prestigious director Mr. K.Balachander. She secured a state award for best supporting actress while pursuing BA
@@ -69,6 +60,22 @@ const app = new Vue({
           successfully exploring multiple fields is inspiring.`,
           imageName: "Vasuki.png"
         },
+       
+        {
+          name: "Sweta Pittala",
+          description: `Sweta Pittala is a ThoughtWorker with Management Consulting experience in Global markets.  She is a proud mom, mentor, and a coach who thinks strategically to define capabilities that organisations need to achieve superior commercial and customer outcomes. She enjoys problem-solving and applying data insights to business challenges.`,
+          imageName: "sweta.jpg"
+        },
+        
+        {
+          name: "Mallika Bajaj",
+          description: `She is Founder Director and CMO at Little Yellow Beetle Media Pvt Ltd. 
+          Mallika completed her BA in Media and Communications at the University of Melbourne and went on to successfully pursue a Masters in Media and Communications from Goldsmiths, University of London, where she acquired knowledge, skills, and the confidence to establish her own company at 23.
+          She's the youngest female in Asia to have set up 3 successful tech business's all under 30, Entrepreneur of the Year, India (2019).
+          `,
+          imageName: "Mallika.png"
+        },
+       
         {
           name: "Tanuja Abburi",
           description: `Tanuja is known for many noteworthy milestones and contributions towards the development and nurturing of talent. 
